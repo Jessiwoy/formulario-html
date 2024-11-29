@@ -5,18 +5,43 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('./assets/background-texture.jpg'); /* Caminho da imagem */
+    background-image: url('./assets/luzes-de-neon-background.jpg'); /* Caminho da imagem */
     background-size: cover; /* Faz com que a imagem ocupe toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
-    font-family: poppins-regular;
-}
-.poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Poppins", sans-serif;/* Define a fonte para todo o site */
+    font-weight: 400; /* Define peso regular */
   }
 
+  button {
+    background-color: #007bff; /* Cor principal do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove bordas */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; /* Mostra o cursor como ponteiro */
+    font-family: "Poppins", sans-serif; /* Garantir o uso da mesma fonte */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}
+
+h1 {
+  font-size: 23px; /* Tamanho do texto */
+    background: linear-gradient(to right, #227a9c, #9b17e7, #b839c9); /* Cores do fundo */
+    -webkit-background-clip: text; /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Torna o fundo do texto visível */
+}
+
+input {
+  border: none; /* Remove a borda */
+  border-bottom: 2px solid transparent; /* Linha inferior invisível */
+  outline: none; /* Remove o contorno ao focar */
+  padding: 8px; /* Adiciona espaçamento interno */
+  font-size: 1rem; /* Tamanho da fonte */
+  margin-bottom: 15px; /* Espaçamento entre elementos */
+}
 /* Caixa centralizada */
 .container {
     background-color: white; /* Cor de fundo para a caixa */

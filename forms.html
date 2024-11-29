@@ -11,16 +11,27 @@
 </head>
 <body>
     <div class="container">
+        <span class="close-btn">&times;</span>
         <h1>Formulário de cadastro</h1>
         <form>
             <label for="name">Nome </label>
             <input id="name" type="text" /> <br />
+            
             <label for="email">E-mail </label>
             <input id="email" type="email" /> <br />
+
             <label for="password">Senha </label>
             <input id="password" type="password" /> <br />
+
+        <div class="checkbox-container">
+            <input id="terms" type="checkbox" />
+            <label for="terms">Aceito os Termos e Condições</label>
+        </div>
+
             <button type="submit">Cadastrar</button>
+            <p></p>
+            <p class="signup-text">Você tem uma conta?<a href="login.html"> Faça login</a>
         </form>
     </div>
-</body>
+    </body>
 </html>
